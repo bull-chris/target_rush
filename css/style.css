@@ -1,0 +1,112 @@
+
+/* body styles */
+body {
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000;
+}
+
+/* main styles */
+main {
+    margin: 0px auto;
+    border-top: 10px solid #501239;
+    border-bottom: 10px solid #501239;
+    background-color: white;
+}
+
+/* section styles */
+section {
+    margin: 0px auto;
+    text-align: center;
+    color: white;
+}
+
+/* endScreen styles */
+#endScreen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100%;
+    padding-top: 20rem;
+    display: none;
+}
+
+/* img styles */
+img {
+    margin-top: 2rem;
+}
+
+/* homeScreen styles */
+#homeScreen {
+    margin-top: 10rem;
+    max-width: 350px;
+}
+
+/* instructionScreen styles */
+#instructionScreen {
+    margin-top: 5rem;
+    max-width: 350px;
+}
+
+/* gameScreen styles */
+#gameScreen, #instructionScreen {
+    display: none;
+}
+
+/* ol styles */
+ol {
+    text-align: left;
+}
+
+/* li styles */
+li {
+    font-size: 22px;
+}
+
+/* li marker styles */
+li::marker {
+    color: #a72878;
+    font-weight: bold;
+}
+
+/* score and timer styles */
+#theScore, #theTime, #finalScore {
+    color: #a72878;
+}
+
+/* button styles */
+#startButton, #instructionsButton, #retryButton, #returnButton {
+    min-width: 250px;
+    margin: 1rem 0rem;
+    padding: 1rem 3rem;
+    background-color: #501239;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* score time section styles */
+#score-time {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* h3 styles */
+h3 {
+    font-size: 24px;
+}
+
+/* section h1 styles */
+section h1 {
+    font-size: 30px;
+}
+
+/* endScreen load in animation */
+@keyframes loadIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}    
+}

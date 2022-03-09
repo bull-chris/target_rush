@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to the CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Title of the webpage -->
+    <title>Chris Bull - Target Rush</title>
+</head>
+<body>
+    <!-- Endscreen overlay -->
+    <section id="endScreen">
+        <h1>Final Score: <span id="finalScore">000</span></h2>
+        <button id="retryButton">Try Again</button>
+    </section>
+    <!-- Logo for Target Rush -->
+    <section>
+        <img src="./images/tr_logo.png" alt="Target Rush Logo">
+    </section>
+    <!-- Homescreen -->
+    <section id="homeScreen">
+        <button id="startButton">Play</button>
+        <button id="instructionsButton">Instructions</button>
+    </section>
+    <!-- Instruction screen -->
+    <section id="instructionScreen">
+        <section>
+            <h3>How to play</h3>
+            <ol>
+                <li>Drag your finger across the screen to aim the ball</li>
+                <li>Release your finger from the screen to shoot</li>
+                <li>Aim for the targets and break as many as possible</li>
+                <li>Get the highest score you can in 60 seconds!</li>
+            </ol>
+            <button id="returnButton">Got it!</button>
+        </section>
+    </section>
+    <!-- Game screen -->
+    <section id="gameScreen">
+        <!-- Score and timer -->
+        <section id="score-time">
+            <h3>Score: <span id="theScore">000</span></h3>
+            <h3>Time: <span id="theTime">60</span></h3>
+        </section>
+        <!-- Game canvas -->
+        <main>
+            <canvas id="gameCanvas" width="350" height="650" style="border: none"></canvas>  
+        </main>
+    </section>
+    
+    <!-- Link to the javascript -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
